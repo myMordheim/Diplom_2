@@ -1,31 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f62b37-78ea-4ebb-87fd-3798564d72a0" name="Changes" comment="" />
+    <list default="true" id="e5f62b37-78ea-4ebb-87fd-3798564d72a0" name="Changes" comment="Create rep">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jOKC8zgYhDafoIAEa4Q2NSyVFf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_create_user.TestCreateUser.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_user.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_already_registered.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_without_email.executor": "Run",
+    "Python tests.Python tests for test_create_user.TestCreateUser.test_create_user_without_one_input.executor": "Run",
+    "Python tests.Python tests for test_get_orders.TestGetOrders.executor": "Run",
+    "Python tests.Python tests for test_get_orders.TestGetOrders.test_get_order_negative_auth.executor": "Run",
+    "Python tests.Python tests for test_login.TestLoginUser.executor": "Run",
+    "Python tests.Python tests for test_login.TestLoginUser.test_create_user.executor": "Run",
+    "Python tests.Python tests for test_login.TestLoginUser.test_incorrect_cred.executor": "Run",
+    "Python tests.Python tests for test_orders.TestOrders.test_create_order_auth.executor": "Run",
+    "Python tests.Python tests for test_orders.TestOrders.test_create_order_negative_auth.executor": "Run",
+    "Python tests.Python tests for test_orders.TestOrders.test_create_order_negative_hash.executor": "Run",
+    "Python tests.Python tests for test_orders.TestOrders.test_create_order_without_ingridients.executor": "Run",
+    "Python tests.Python tests for test_update_user.TestUpdateUser.executor": "Run",
+    "Python tests.Python tests for test_update_user.TestUpdateUser.test_user_update.executor": "Run",
+    "Python tests.Python tests for test_update_user.TestUpdateUser.test_user_update_negative.executor": "Run",
+    "Python tests.Python tests in test_create_user.py.executor": "Run",
+    "Python.data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "develope2"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_get_orders.TestGetOrders.test_get_order_negative_auth">
+    <configuration name="Python tests for test_get_orders.TestGetOrders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_orders.TestGetOrders&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_get_orders.TestGetOrders.test_get_order_negative_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_orders.TestGetOrders.test_get_order_negative_auth&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_orders.TestOrders.test_create_order_negative_auth" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_orders.TestOrders.test_create_order_negative_auth&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_orders.TestOrders.test_create_order_negative_hash" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_orders.TestOrders.test_create_order_negative_hash&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_orders.TestOrders.test_create_order_without_ingridients" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_orders.TestOrders.test_create_order_without_ingridients&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_get_orders.TestGetOrders.test_get_order_negative_auth" />
+        <item itemvalue="Python tests.Python tests for test_get_orders.TestGetOrders" />
+        <item itemvalue="Python tests.Python tests for test_orders.TestOrders.test_create_order_negative_hash" />
+        <item itemvalue="Python tests.Python tests for test_orders.TestOrders.test_create_order_without_ingridients" />
+        <item itemvalue="Python tests.Python tests for test_orders.TestOrders.test_create_order_negative_auth" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +167,27 @@
       <option name="presentableId" value="Default" />
       <updated>1721252552850</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create rep">
+      <option name="closed" value="true" />
+      <created>1721252571551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721252571551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create rep">
+      <option name="closed" value="true" />
+      <created>1721252655060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721252655060</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create rep" />
   </component>
 </project>
