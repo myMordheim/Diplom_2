@@ -7,23 +7,26 @@ import requests
 from data import *
 
 class TestOrders:
-
+    @allure.title('Создать заказ, авторизованный пользователь')
     def test_create_order_auth(self, user_create_for_test):
         token = user_create_for_test[1].json()["accessToken"]
         requests.post(Endpoints.login, data=user_create_for_test[0])
         response = requests.post(Endpoints.create_order, headers={"Authorization": token}, data=Data.data_ingridients)
         assert response.json()["success"] is True and response.status_code == 200
 
+    @allure.title('Создать заказ, неавторизованный пользователь')
     def test_create_order_negative_auth(self):
         response = requests.post(Endpoints.create_order, data=Data.data_ingridients)
         assert response.status_code == 200
 
+    @allure.title('Создать заказ, без ингредиентов')
     def test_create_order_without_ingridients(self, user_create_for_test):
         token = user_create_for_test[1].json()["accessToken"]
         requests.post(Endpoints.login, data=user_create_for_test[0])
         response = requests.post(Endpoints.create_order, headers={"Authorization": token}, data={})
         assert response.json()["success"] is False and response.status_code == 400
 
+    @allure.title('Создать заказ с неверным хешем ингредиентов')
     def test_create_order_negative_hash(self, user_create_for_test):
         token = user_create_for_test[1].json()["accessToken"]
         requests.post(Endpoints.login, data=user_create_for_test[0])
